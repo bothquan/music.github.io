@@ -10,11 +10,11 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['温柔', '夏天'];
+const songs = ['温柔', '夏天','稻香','告白气球','七里香','青花瓷'];
 
 // Keep track of song
-//数组2 
-let songIndex = 1;
+//数组6 
+let songIndex = 5;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
